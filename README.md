@@ -17,4 +17,4 @@ We have a test class to check [BinaryTree](src/main/java/br/com/gomide/binary_tr
 You should open the [BinaryTreeTest](src/test/java/br/com/gomide/binary_tree/BinaryTreeTest.java) to know how `BinaryTree` will work.
 
 Complete the `BinaryTree` and `Node` implementations to make all tests green.
-bla
+its working
