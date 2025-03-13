@@ -193,6 +193,7 @@ class BinaryTreeTest {
         assertEquals(binaryTreeOps.calculateNodeLevel(rootNode, 8), 0);
         assertEquals(binaryTreeOps.calculateNodeLevel(rootNode, 9), 1);
         assertEquals(binaryTreeOps.calculateNodeLevel(rootNode, 1), 2);
+        assertEquals(binaryTreeOps.calculateNodeLevel(rootNode, 1), 2);
 
     }
 }
