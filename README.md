@@ -1,19 +1,19 @@
-# Binary Tree
+🔍 Funcionalidades
+✅ Árvore Binária
+Inserção de nós
 
-In this folder we have a Binary Tree project with the [IBinaryTree](src/main/java/br/com/gomide/binary_tree/IBinaryTree.java) interface and [Node](src/main/java/br/com/gomide/binary_tree/Node.java) class.
+Busca
 
-The `IBinaryTree` contains the common methods like create a new tree, insert/remove elements, display a tree...
+Impressão em diferentes ordens (pré-ordem, in-ordem, pós-ordem)
 
-`Node` class represents a tree node. It have three attributes: `value`, `left` and `right`. 
+Interface genérica para abstração
 
-The attribute `value` represents the node element. So it is a generic type extended from [Comparable](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html).
+✅ Grafos
+Criação de grafos direcionados e não direcionados
 
-The `left` and `right` elements are pointers to the node's children.
+Suporte a grafos ponderados
 
-## Exercise
+Testes com base em imagens visuais (representações gráficas dos grafos)
 
-We have a test class to check [BinaryTree](src/main/java/br/com/gomide/binary_tree/BinaryTree.java) implementation.
-
-You should open the [BinaryTreeTest](src/test/java/br/com/gomide/binary_tree/BinaryTreeTest.java) to know how `BinaryTree` will work.
-
-Complete the `BinaryTree` and `Node` implementations to make all tests green.
+🧪 Testes
+O projeto utiliza testes unitários (via JUnit) localizados na pasta src/test/java. As imagens de teste ajudam a validar visualmente as estruturas de grafos implementadas.
